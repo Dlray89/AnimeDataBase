@@ -1,0 +1,30 @@
+{
+  "name": "AnimeDataBase",
+  "version": "1.0.0",
+  "description": "DataBase for my favorite anime characters",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dlray89/AnimeDataBase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dlray89/AnimeDataBase/issues"
+  },
+  "homepage": "https://github.com/Dlray89/AnimeDataBase#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.3",
+    "knex": "^0.20.11",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
