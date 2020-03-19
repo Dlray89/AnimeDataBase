@@ -19,7 +19,7 @@ function findById(id){
 function add(characters){
     return animeDB("characters")//grab characters from the database
     .insert(characters, "id") //insertanew character with a new id into the body
-    .then(ids => ({ id: ids[0] }))//then let id start in order
+    .then(ids => ({ id: ids[0] }))//then let id start in order from 0.
 }
 
 
